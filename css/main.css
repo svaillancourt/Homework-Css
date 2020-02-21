@@ -118,7 +118,7 @@ p {
 
 .overflow-scroll {
     overflow: scroll;   /* determines the function*/
-    height: 800px;       /* determines the height of the box*/
+    height: 700px;       /* determines the height of the box*/
 }
 
 .overflow-scroll2 {
