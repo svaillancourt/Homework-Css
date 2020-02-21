@@ -115,3 +115,13 @@ p {
     line-height: 1.5;
     padding: 10px;
 }
+
+.overflow-scroll {
+    overflow: scroll;   /* determines the function*/
+    height: 800px;       /* determines the height of the box*/
+}
+
+.overflow-scroll2 {
+    overflow: scroll;   /* determines the function*/
+    height: 500px;       /* determines the height of the box*/
+}
