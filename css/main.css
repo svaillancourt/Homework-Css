@@ -113,6 +113,16 @@ a {
     margin-right: auto;
 }
 
+#profile-picture /* # equals an ID*/ {
+    
+    margin-bottom: -20px;
+}
+
+#google-maps /* # equals an ID*/ {
+    width: auto;
+    margin-right: 15px;
+}
+
 footer{
     opacity: 1;
 }
