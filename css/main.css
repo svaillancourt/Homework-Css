@@ -1,7 +1,13 @@
+*{ 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 10PX; 
+    font-size: 16px;  
+}
 
 body{
   background-image: url(../img/backgrounds/90s-pattern-1.jpg); /*The image used */
-  opacity: 0.95;        /*varies from 0-1*/
+  opacity: 1;        /*varies from 0-1*/
   background-color: white; /* Used if the image is unavailable */
   background-position: center; /* Center the image */
   background-repeat: repeat; /* repeat the image */
@@ -47,6 +53,8 @@ h2{
     margin-right: auto;
     
     padding-top: 20px;
+    padding-bottom: 0px;
+
 
     font-size: 20px;    
 }
@@ -54,10 +62,12 @@ h2{
 h3{
     width: auto;
     max-width: 800px;
-
+    
     margin-left: auto;
     margin-right: auto;
    
+    padding-bottom: 0px;
+    
     font-size: 15px;    
 }
 
@@ -80,14 +90,31 @@ article {
    
     line-height: 1.7;
     font-size: 20px;
+    opacity: .97;
 }
 
 p {
     max-width: 800px;
     padding-bottom: 10px;
+
+    margin-left: auto;
+    margin-right: auto;
+    
     font-size: 15px;
     line-height: 1.7;
 
+}
+
+a {
+    max-width: 800px;
+    padding: 0px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer{
+    opacity: 1;
 }
 
 .overflow-scroll {
@@ -97,7 +124,7 @@ p {
 
 .overflow-scroll2 {
     overflow: scroll;   /* determines the function*/
-    height: 500px;       /* determines the height of the box*/
+    height: 600px;       /* determines the height of the box*/
 }
 
 .logos{

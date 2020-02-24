@@ -1,28 +1,34 @@
 /*social media links*/
 
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-  }
+#social-media-links {
+list-style: none;
+text-align: center;
+
+}
   
-  .fa:hover {
-      opacity: 0.5;
+#social-media-links li{ /* Direct child selector ">" 
+    The LI must be directly inside the element with the "social-media-links" id in this case.*/
+    display: inline-block;
+
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+
+    background-color: white;
+
   }
-  .fa-linkedin {
-      background: #007bb5;
-      color: white;
-    }
-  
-  .fa-instagram {
-      background: #a81be9;
-      color: white;
-    }
+
+#social-media-links .fab{     
     
-  .fa-youtube {
-      background: #bb0000;
-      color: white;
-    }
+    /* RGBA - the a stands for ALPHA channel=selector with nesting.*/
+    /* for alpha: 1 = opaque; 0 = transparent. You can use values inbetween like "0.5" to mark it as semi-transparent. */
+    color:rgb(0, 0, 0);
+    font-size: 40px;
+}
+
+#social-media-links a:hover .fab,
+#social-media-links a:focus .fab,
+#social-media-links a:active .fab{     /* Psuedo=selector with nesting.*/
+    color:rgba(250,66,54, 0.85);
+    font-size: 40px;
+}
