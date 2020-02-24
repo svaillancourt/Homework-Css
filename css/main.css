@@ -1,6 +1,7 @@
 
 body{
-  /* background-image: url(../img/background4.jpg); The image used */
+  background-image: url(../img/backgrounds/90s-pattern-1.jpg); /*The image used */
+  opacity: 0.95;        /*varies from 0-1*/
   background-color: white; /* Used if the image is unavailable */
   background-position: center; /* Center the image */
   background-repeat: repeat; /* repeat the image */
@@ -9,17 +10,20 @@ body{
 h1, h2, h3, article, p{
 
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: white;
+    padding-left: 5px;
+    
 }
 
-h1, h2, h3{
+h1, h2, h3 {
     
     color: #1982c9 ; 			/*  there are a few ways to do colour */
-
+    
 }
 
-article, p{
+li,article, p{
     
-    color: black ; 			/*  there are a few ways to do colour */
+    color:black;			/*  there are a few ways to do colour */
 
 }
 
@@ -33,7 +37,7 @@ h1{
     font-size: 30px;    
     text-align: center;
 
-    padding: 5px;
+
 }
 
 h2{
@@ -43,10 +47,9 @@ h2{
     margin-left: auto;
     margin-right: auto;
     
-    color: #1982c9 ; 			/*  there are a few ways to do colour */
     font-size: 20px;    
     
-    padding: 2px;
+
 }
 
 h3{
@@ -56,10 +59,19 @@ h3{
     margin-left: auto;
     margin-right: auto;
    
-    color: #1982c9 ; 			/*  there are a few ways to do colour */
     font-size: 15px;    
 
-    padding: 2px;
+}
+
+li{
+    width: auto;
+    max-width: 800px;
+
+    margin-left: auto;
+    margin-right: auto;
+   
+    font-size: 15px;    
+
 }
 
 article {
@@ -72,7 +84,6 @@ article {
     font-size: 20px;    
    
     line-height: 1.5;
-    padding: 2px;
 }
 
 p {
@@ -80,7 +91,6 @@ p {
     
     font-size: 15px;
     line-height: 1.5;
-    padding: 10px;
 }
 
 .overflow-scroll {
