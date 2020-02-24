@@ -1,7 +1,7 @@
 *{ 
     box-sizing: border-box;
     margin: 0;
-    padding: 10PX; 
+    padding: 0px;
     font-size: 16px;  
 }
 
@@ -9,8 +9,20 @@ body{
   background-image: url(../img/backgrounds/90s-pattern-1.jpg); /*The image used */
   opacity: 1;        /*varies from 0-1*/
   background-color: white; /* Used if the image is unavailable */
-  background-position: center; /* Center the image */
+  background-position: top left; /* Center the image */
   background-repeat: repeat; /* repeat the image */
+}
+
+article {
+    width: auto;
+    max-width: 800px;
+
+    margin-left: auto;
+    margin-right: auto;
+   
+    line-height: 1.7;
+    font-size: 20px;
+    opacity: .97;
 }
 
 h1, h2, h3, h4, article, p{
@@ -38,8 +50,11 @@ h1{
     width: auto;
     max-width: 800px;
 
+    margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
+
+    padding: 20px;
     
     font-size: 30px;    
     text-align: center;
@@ -49,12 +64,12 @@ h2{
     width: auto;
     max-width: 800px;
 
+    margin-top: 0px;
     margin-left: auto;
     margin-right: auto;
     
-    padding-top: 20px;
+    padding-top: 15px;
     padding-bottom: 0px;
-
 
     font-size: 20px;    
 }
@@ -77,49 +92,42 @@ li{
 
     margin-left: auto;
     margin-right: auto;
-   
+
+    
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+
     font-size: 15px;    
-}
-
-article {
-    width: auto;
-    max-width: 800px;
-
-    margin-left: auto;
-    margin-right: auto;
-   
     line-height: 1.7;
-    font-size: 20px;
-    opacity: .97;
+
 }
 
 p {
     max-width: 800px;
+
+    padding-top: 10px;
     padding-bottom: 10px;
+    padding-right: 10px;
 
     margin-left: auto;
     margin-right: auto;
     
     font-size: 15px;
     line-height: 1.7;
-
-}
-
-a {
-    max-width: 800px;
-    padding: 0px;
-
-    margin-left: auto;
-    margin-right: auto;
 }
 
 #profile-picture /* # equals an ID*/ {
     
+    margin-top: 10px;
     margin-bottom: -20px;
+    margin-left: 20px;
+
 }
 
 #google-maps /* # equals an ID*/ {
-    width: auto;
+    width: 95%;
     margin-right: 15px;
 }
 
@@ -133,7 +141,7 @@ a {
     
     display: inline-block;
     background-color: white;
-
+    padding: 10px;
     }
 
 #contact-methods .fab{     
