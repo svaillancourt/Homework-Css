@@ -42,8 +42,7 @@ h1, h2, h3, h4 {
 li,article, p{
     
     color:black;			/*  there are a few ways to do colour */
-    padding-left: 15px;
-
+    
 }
 
 h1{
@@ -60,7 +59,7 @@ h1{
     text-align: center;
 }
 
-h2{
+/*h2{
     width: auto;
     max-width: 800px;
 
@@ -72,7 +71,7 @@ h2{
     padding-bottom: 0px;
 
     font-size: 20px;    
-}
+}*/
 
 h3{
     width: auto;
@@ -86,29 +85,11 @@ h3{
     font-size: 15px;    
 }
 
-li{
-    width: auto;
-    max-width: 800px;
-
-    margin-left: auto;
-    margin-right: auto;
-
-    
-    padding-top: 5px;
-    padding-left: 20px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-
-    font-size: 15px;    
-    line-height: 1.7;
-
-}
-
 p {
     max-width: 800px;
 
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
     padding-right: 10px;
 
     margin-left: auto;
@@ -122,27 +103,30 @@ p {
     
     margin-top: 10px;
     margin-bottom: -20px;
-    margin-left: 20px;
-
+    margin-left: 10px;
 }
 
 #google-maps /* # equals an ID*/ {
+    
     width: 95%;
+    
+    margin-top: 10px ;
     margin-right: 15px;
+    margin-left: 10px; 
 }
 
 #social-media-links {
     list-style: none;
     text-align: center;
-    }
+}
       
 #contact-methods li{ /* Direct child selector ">" 
     The LI must be directly inside the element with the "social-media-links" id in this case.*/
     
     display: inline-block;
     background-color: white;
-    padding: 10px;
-    }
+    padding: 20px;
+}
 
 #contact-methods .fab{     
     
@@ -183,4 +167,38 @@ footer{
 
     /* margin: 0px 16px 16px 0px; */
 }
+
+.title-spacing{
+
+    width: auto;
+    max-width: 800px;
+
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-top: 15px;
+    padding-bottom: 0px;
+}
+
+
+.text-lists{
+
+    width: auto;
+    max-width: 800px;
+
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+
+    font-size: 15px;    
+    line-height: 1.7;
+}
+
+
 
