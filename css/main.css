@@ -106,14 +106,6 @@ p {
     margin-right: 15px;
     margin-left: 10px; 
 }
-
-#social-media-links {
-    list-style: none;
-    text-align: center;
-
-    margin-top: 10px;
-    padding: 10px;
-}
       
 #contact-methods li{ /* Direct child selector ">" 
     The LI must be directly inside the element with the "social-media-links" id in this case.*/

@@ -10,25 +10,29 @@ text-align: center;
     The LI must be directly inside the element with the "social-media-links" id in this case.*/
     display: inline-block;
 
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 30px;
+    list-style: none;
+    text-align: center;
 
-    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
 
-  }
+    background-color: whitesmoke;
+    opacity: 0.95;
+
+}
 
 #social-media-links .fab{     
     
     /* RGBA - the a stands for ALPHA channel=selector with nesting.*/
     /* for alpha: 1 = opaque; 0 = transparent. You can use values inbetween like "0.5" to mark it as semi-transparent. */
     color:rgb(0, 0, 0);
-    font-size: 40px;
+    font-size: 50px;
 }
 
 #social-media-links a:hover .fab,
 #social-media-links a:focus .fab,
 #social-media-links a:active .fab{     /* Psuedo=selector with nesting.*/
     color:rgba(250,66,54, 0.85);
-    font-size: 40px;
+    font-size: 50px;
 }
