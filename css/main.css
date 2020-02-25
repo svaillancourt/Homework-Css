@@ -58,21 +58,14 @@ h1{
     text-align: center;
 }
 
-/*h2{
+h2{
     width: auto;
     max-width: 800px;
 
-    margin-top: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    
-    padding-top: 15px;
-    padding-bottom: 0px;
-
     font-size: 20px;    
-}*/
+}
 
-h3{
+h3 {
     width: auto;
     max-width: 800px;
     
@@ -133,14 +126,14 @@ p {
     /* RGBA - the a stands for ALPHA channel=selector with nesting.*/
     /* for alpha: 1 = opaque; 0 = transparent. You can use values inbetween like "0.5" to mark it as semi-transparent. */
     color:rgb(0, 0, 0);
-    font-size: 40px;
+    font-size: 20px;
 }
 
 #contact-methods a:hover .fab,
 #contact-methods a:focus .fab,
 #contact-methods a:active .fab{     /* Psuedo=selector with nesting.*/
     color:rgba(250,66,54, 0.85);
-    font-size: 40px;
+    font-size: 20px;
 }
 
 footer{
@@ -160,9 +153,7 @@ footer{
 .socialicons{
 
     padding: 30px;
-    background-color: violet;
 }
-
 
 /*.socialicons{
 
