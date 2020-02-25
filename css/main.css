@@ -8,7 +8,6 @@
 body{
   background-image: url(../img/backgrounds/90s-pattern-1.jpg); /*The image used */
   opacity: 1;        /*varies from 0-1*/
-  background-color: white; /* Used if the image is unavailable */
   background-position: top left; /* Center the image */
   background-repeat: repeat; /* repeat the image */
 }
@@ -118,14 +117,15 @@ p {
 #social-media-links {
     list-style: none;
     text-align: center;
+
+    margin-top: 10px;
+    padding: 10px;
 }
       
 #contact-methods li{ /* Direct child selector ">" 
     The LI must be directly inside the element with the "social-media-links" id in this case.*/
     
     display: inline-block;
-    background-color: white;
-    padding: 20px;
 }
 
 #contact-methods .fab{     
@@ -157,7 +157,14 @@ footer{
     height: 600px;       /* determines the height of the box*/
 }
 
-.logos{
+.socialicons{
+
+    padding: 30px;
+    background-color: violet;
+}
+
+
+/*.socialicons{
 
     float: right; 
     margin-top: 0px;
@@ -165,8 +172,8 @@ footer{
     margin-bottom: 0px;
     margin-left: 20px;
 
-    /* margin: 0px 16px 16px 0px; */
-}
+    margin: 0px 16px 16px 0px; 
+}*/
 
 .title-spacing{
 
