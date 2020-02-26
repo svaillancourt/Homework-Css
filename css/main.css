@@ -106,6 +106,7 @@ p {
     margin-right: 15px;
     margin-left: 10px; 
 }
+
       
 #contact-methods li{ /* Direct child selector ">" 
     The LI must be directly inside the element with the "social-media-links" id in this case.*/
@@ -134,7 +135,7 @@ footer{
 
 .overflow-scroll {
     overflow: scroll;   /* determines the function*/
-    height: 700px;       /* determines the height of the box*/
+    height: 600px;       /* determines the height of the box*/
 }
 
 .overflow-scroll2 {
@@ -142,21 +143,85 @@ footer{
     height: 600px;       /* determines the height of the box*/
 }
 
-.socialicons{
+.video-section{
+    position: relative;
+    overflow: hidden;
+    opacity: 0.5;
 
-    padding: 30px;
 }
 
-/*.socialicons{
+.video-section > * {  /* Directed decendant*/
+    position: relative;
+    z-index: 1;
+}
 
-    float: right; 
-    margin-top: 0px;
-    margin-right: 20px;
-    margin-bottom: 0px;
-    margin-left: 20px;
+.video-section p{
+    background: none;
+}
 
-    margin: 0px 16px 16px 0px; 
-}*/
+.video-section video{
+    
+    position: absolute;
+    top: 0;
+   /* right: 0; */
+   /* bottom: 0; */
+    left: 0;
+    
+    width: 100%;
+    height: auto;
+
+    opacity: 1;
+}
+
+/* Whiteout overlay */
+.video-section::before{
+    
+    content:'';
+    display:block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255,0.25);
+
+}
+
+/* buttons */
+
+.transition-transform button {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: fuchsia;
+    background: lavenderblush;
+
+    padding: 8px 16px;
+    border: 3px solid black;
+    margin: 32px;
+    cursor: pointer;    /* changed the pointer to a hand */ 
+    /* cursor: URL(./gifs/megaman.gif), auto; */
+
+    transition: 
+    1s linear border,
+    0.3s ease-in padding,
+    0.5s ease-in-out background-color,
+    2s ease color,
+    4s ease font-size;
+}
+
+.transition-transform button:hover,
+.transition-transform button:focus,
+.transition-transform button:active{
+
+    color: lavender;
+    background: fuchsia;
+
+    padding: 12px 20px;
+    border: 6px dotted indigo;
+}
+
 
 .title-spacing{
 
@@ -170,7 +235,6 @@ footer{
     padding-top: 15px;
     padding-bottom: 0px;
 }
-
 
 .text-lists{
 

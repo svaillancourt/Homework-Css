@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Trade+Winds&display=swap');
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url( '../fonts/jetbrains-mono/JetBrainsMono-Regular.ttf' );
+    src: /* You would want to have all the main formats in each @font-face! */
+        url( '../fonts/jetbrains-mono/JetBrainsMono-Regular.woff' )
+        format( 'woff' ),
+        url( '../fonts/jetbrains-mono/JetBrainsMono-Regular.ttf' )
+        format( 'truetype' ),
+        url( '../fonts/jetbrains-mono/JetBrainsMono-Regular.svg' )
+        format( 'svg' );
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url( '../fonts/jetbrains-mono/JetBrainsMono-Bold.ttf' );
+    src: url( '../fonts/jetbrains-mono/JetBrainsMono-Bold.ttf' ) format( 'truetype' );
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url( '../fonts/jetbrains-mono/JetBrainsMono-Bold-Italic.ttf' );
+    src: url( '../fonts/jetbrains-mono/JetBrainsMono-Bold-Italic.ttf' ) format( 'truetype' );
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url( '../fonts/jetbrains-mono/JetBrainsMono-Italic.ttf' );
+    src: url( '../fonts/jetbrains-mono/JetBrainsMono-Italic.ttf' ) format( 'truetype' );
+    font-weight: normal;
+    font-style: italic;
+}
